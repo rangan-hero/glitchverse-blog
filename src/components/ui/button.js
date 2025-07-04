@@ -1,0 +1,1 @@
+export const Button = ({ children, onClick }) => <button onClick={onClick} className='bg-purple-600 px-4 py-2 rounded text-white'>{children}</button>;
